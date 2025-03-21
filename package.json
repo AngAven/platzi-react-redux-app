@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start-redux-devtools": "redux-devtools --hostname=localhost --port=8001"
   },
   "dependencies": {
     "@ant-design/icons": "^5.6.1",
@@ -23,6 +24,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
+    "@redux-devtools/cli": "^4.0.2",
+    "@redux-devtools/remote": "^0.9.5",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
