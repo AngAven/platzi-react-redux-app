@@ -1,6 +1,6 @@
 import {Input} from 'antd'
 
-const Search = () => {
+const Searcher = () => {
     return (
         <>
             <form action="">
@@ -10,4 +10,4 @@ const Search = () => {
     );
 };
 
-export {Search};
+export {Searcher};
